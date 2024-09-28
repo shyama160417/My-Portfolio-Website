@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyama Duvvri</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- -------------------------------fonts----------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <!-- ----------------------------------------------------------------------------------------->
+    <script src="https://kit.fontawesome.com/b5728e493b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a target="_blank" href="https://docs.google.com/document/d/18O_FnQZV6bXqmiC-8dKp0oiQlFPp2Q49/edit?usp=sharing&ouid=107954509394899107924&rtpof=true&sd=true">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </header>
+    <img src="images/hamburger.png" alt="menu-icon" class="hamburger_icon" onclick="displaymenubar()">
+    <div class="menubar">
+        <a class="menuitem">Home</a>
+        <a target="_blank" href="https://docs.google.com/document/d/18O_FnQZV6bXqmiC-8dKp0oiQlFPp2Q49/edit?usp=sharing&ouid=107954509394899107924&rtpof=true&sd=true" class="menuitem">Resume</a>
+        <a href="#projects" class="menuitem">Projects</a>
+        <a href="#contact" class="menuitem">Contact</a>
+
+    </div>
+
+    <div class="about">
+        
+        <div class="description">
+            <span style='font-family: "Tangerine", cursive;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 35px;
+            line-height: 35px;'> I am, </span><br>
+            <span style='font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 45px;
+            line-height: 45px;'> Shyama Duvvri </span> <br>
+            <div class="paragraph">
+            <div class="vl"></div>
+            <p>As a passionate Front-End Web Developer, I meticulously craft digital experiences using the dynamic trio of 
+            HTML, <br class="break">
+            CSS, and Javascript. With a keen eye for design and a commitment to seamless user interactions, 
+            I bring websites to <br class="break">
+            life, transforming concepts into visually stunning and 
+            functionally impressive online environments.</p>
+            </div>
+        </div>
+        <div class="profile_img"></div>
+            <img class="profile_pic" src="/images/profile-pic.webp" width="100%" height="100%">
+        </div>
+        
+    </div>
+    <div class="tech_stack">
+        <h3>My Tech Stack</h3>
+        <div class="tech_stack_icons fade_in">
+            <img src="/images/html_icon.webp" class="icon" alt="Icon">
+            <img src="/images/css_icon.webp" class="icon" alt="Icon">
+            <img src="/images/js_icon.webp" class="icon" alt="Icon">
+            <img src="/images/react_icon.svg" class="icon" alt="Icon">
+            <img src="/images/firebase_icon.webp" class="icon" alt="Icon">
+            <img src="/images/redux_icon.webp" class="icon" alt="Icon">
+            <img src="/images/tailwind_icon.webp" class="icon" alt="Icon">
+
+        </div>
+    </div>
+    <h2 class="project_heading fade_in" id="projects">PROJECTS</h2>
+
+    <div class="projects_container">
+        <div class="project">
+            <a href="https://fascinated-friend.surge.sh/" target="_blank"> <img class="project_image" src="/images/React_project.webp" alt="React Bookstore"> </a>
+            <h3 class="project_title fade_in">E-commerce Bookstore</h3>
+            <p class="fade_in project_desc">This is an online bookstore application using React that allows users to browse through a collection of books, view details of each book, add books to their cart, and proceed to checkout. Users can also search for books by title, author or genre.</p>
+            <div class="icons_container fade_in">
+                <img class="project_icon" src="/images/html_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/css_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/js_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/react_icon.svg" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/redux_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="images/firebase_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/tailwind_icon.webp" alt="icon_1" height="100%" width="100%">
+    
+            </div>
+            <a href="#" class="github fade_in">View Code in GitHub</a>
+        </div>
+        <!-- -----------------------------------Project 2----------------------------------------- -->
+        <div class="project">
+            <a href="https://weather-appinjs.surge.sh/" target="_blank"> <img class="project_image" src="/images/weather_app.webp" alt="Weather App"> </a>
+            <h3 class="project_title fade_in">Weather App</h3>
+            <p class="fade_in project_desc">A simple weather app developed using Vanilla JS that fetches weather details of the entered city.</p>
+            <div class="icons_container fade_in">
+                <img class="project_icon" src="/images/html_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/css_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/js_icon.webp" alt="icon_1" height="100%" width="100%">    
+            </div>
+            <a href="#" class="github fade_in">View Code in GitHub</a>
+        </div>
+        <!-- -----------------------------------Project 3----------------------------------------- -->
+        <div class="project">
+           <a href="https://to-do-listin2024.surge.sh/" target="_blank"> <img class="project_image" src="/images/todo_app.webp" alt="Weather App"> </a>
+            <h3 class="project_title fade_in">To-Do App</h3>
+            <p class="fade_in project_desc">A simple app developed using vanilla JS where users can add and delete items to their to-do list.</p>
+            <div class="icons_container fade_in">
+                <img class="project_icon" src="/images/html_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/css_icon.webp" alt="icon_1" height="100%" width="100%">
+                <img class="project_icon" src="/images/js_icon.webp" alt="icon_1" height="100%" width="100%">    
+            </div>
+            <a href="#" class="github fade_in">View Code in GitHub</a>
+        </div>
+       <!-- -----------------------------------Project 4----------------------------------------- -->
+       <div class="project">
+        <a href="https://frontendpractice.surge.sh/" target="_blank"> <img class="project_image" src="/images/bonsai.webp" alt="Weather App"> </a>
+        <h3 class="project_title fade_in">Frontend Practice - (Bonsai) Plans and Pricing Clone</h3>
+        <p class="fade_in project_desc">This is one of the projects I picked up from frontendpractice.com where I developed a webpage replica rebuilt from scratch using HTML, CSS and some Javascript.</p>
+        <div class="icons_container fade_in">
+            <img class="project_icon" src="/images/html_icon.webp" alt="icon_1" height="100%" width="100%">
+            <img class="project_icon" src="/images/css_icon.webp" alt="icon_1" height="100%" width="100%">
+            <img class="project_icon" src="/images/js_icon.webp" alt="icon_1" height="100%" width="100%">    
+        </div>
+        <a href="#" class="github fade_in">View Code in GitHub</a>
+    </div>
+
+    <!-- -----------------------------------Project 5----------------------------------------- -->
+    <div class="project">
+        <img class="project_image" src="/images/portfolio.png" alt="Weather App">
+        <h3 class="project_title fade_in">My Portfolio Website</h3>
+        <p class="fade_in project_desc">I built this website that you are currently viewing using HTML, CSS and Vanilla JS</p>
+        <div class="icons_container fade_in">
+            <img class="project_icon" src="/images/html_icon.webp" alt="icon_1" height="100%" width="100%">
+            <img class="project_icon" src="/images/css_icon.webp" alt="icon_1" height="100%" width="100%">
+            <img class="project_icon" src="/images/js_icon.webp" alt="icon_1" height="100%" width="100%">    
+        </div>
+        <a href="#" class="github fade_in">View Code in GitHub</a>
+    </div>
+    </div>
+    
+    <div class="allProjects">
+        <button class="allProjectsButton">See All Projects</button>
+    </div>
+
+    <footer id="contact">
+        <div class="connect">Connect with me</div>
+        <hr style="width: 80%; height: 4px;">
+        <div class="contact_links">
+           <a href="https://www.linkedin.com/in/shyama-duvvri-a289ba141/" target="_blank"> <i class="fa-brands fa-linkedin" style="color: rgb(40, 193, 130); font-size: 40px;"></i> </a>
+           <a href="https://github.com/shyama160417" target="_blank"> <i class="fa-brands fa-square-github" style="color: rgb(40, 193, 130); font-size: 40px;"></i> </a>
+            <div class="phone">
+                <i class="fa-solid fa-phone" style="color: rgb(40, 193, 130); font-size: 30px;"></i>
+                <p>+1 3069148916</p>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope" style="color: rgb(40, 193, 130); font-size: 30px;"></i>
+                <p>shyama160417@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <div class="footer2">
+        <div class="designedby">Designed by Shyama Duvvri 2024</div>
+    </div>
+
+   
+    
+<script src="logic.js"></script>    
+</body>
+</html>
